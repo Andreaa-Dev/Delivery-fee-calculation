@@ -108,7 +108,6 @@ export default function CalculationFeeForm() {
           <DateTimePicker
             sx={{ margin: "10px" }}
             name="time"
-            disablePast
             defaultValue={formik.values.time}
             views={["year", "month", "day", "hours", "minutes"]}
             onChange={(value) => formik.setFieldValue("time", value)}
