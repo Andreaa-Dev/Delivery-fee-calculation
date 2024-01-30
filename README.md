@@ -1,5 +1,7 @@
-# Delivery Fee Calculator
+# Delivery Fee Calculator - Frontend in Finland
 
-Intro
+Strategy pattern
 
 # Run project
+
+Deploy link
