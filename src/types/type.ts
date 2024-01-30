@@ -1,9 +1,9 @@
 export type DeliveryInformation = {
-  cartValue: number
-  deliveryDistance: number
-  numberOfItems: number
-  time: Date
-}
+  cartValue: number;
+  deliveryDistanceKilometer: number;
+  numberOfItems: number;
+  time: Date;
+};
 
 export enum DayInWeek {
   Monday = 1,
@@ -17,8 +17,8 @@ export enum DayInWeek {
 
 export type RushHourSchedule = {
   [day in DayInWeek]?: {
-    start: string
-    end: string
-    multiplier: number
-  }
-}
+    start: string;
+    end: string;
+    multiplier: number;
+  };
+};
