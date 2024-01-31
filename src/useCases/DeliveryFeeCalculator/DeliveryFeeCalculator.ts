@@ -35,7 +35,6 @@ export class DeliveryFeeCalculator
         totalFee = 0;
         break;
       }
-      console.log(surCharge);
       totalFee = totalFee + surCharge;
     }
 
