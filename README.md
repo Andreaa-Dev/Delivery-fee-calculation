@@ -1,10 +1,14 @@
-# Delivery Fee Calculator - Frontend in Finland
+# Delivery Fee Calculator
 
-Strategy pattern
+The assignment is for Frontend internship in Finland.
+I started the project using if-else conditional statements and it is optimal. So in the end, I decided to go with other approach applying Strategy pattern.
+
 [Deploy link](https://delivery-fee-calculation.vercel.app/)
+
 ![screenshot](./src/images/Screenshot.png)
 
-# Run project
+# Run project and testing
 
-- Step 1: yarn
-- Step 2: yarn start
+- Install dependencies: `yarn` or `npm install`
+- Start projects: `yarn start` or `npm run start`
+- Run test: `yarn test` or `npm run test`
