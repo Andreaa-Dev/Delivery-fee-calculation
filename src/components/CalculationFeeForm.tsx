@@ -36,7 +36,6 @@ export default function CalculationFeeForm() {
   const { fee, calculateFee } = useCalculate();
 
   function onSubmitHandler(values: InitialValues) {
-    console.log(values);
     calculateFee({
       ...values,
       time: values.time.toDate(),
